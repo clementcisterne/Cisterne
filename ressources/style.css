@@ -27,22 +27,40 @@ footer{
     bottom:0;
 
     text-align: center;
-    display: inline-block;
+
     border : solid;
 }
 
 
 .content{
-    padding-left: 5%;
-    padding-rigth: 5%;
+    padding-left: 0%;
+    padding-rigth: 0%;
 }
+
+
+/*__________________________________________________________________________________________________
+    top_barre
+*/
 
 .top_barre{
     background-color: dimgrey;
     popsition:fixed;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
     top:0;
+    right: 0;
 }
 
+a.top_barre{
+
+}
+
+.name{
+    font-family: BadMofo;
+    padding-right: 20%;
+    font-size:40px;
+}
 
 /*__________________________________________________________________________________________________
     div
@@ -52,6 +70,7 @@ footer{
     display: inline-block;
     width: 30%;
     padding:10px;
+    top:0;
 
     border-right: solid;
 }
@@ -60,6 +79,7 @@ footer{
     display: inline-block;
     width: 30%;
     padding:10px;
+
 
     border-right: solid;
 }
@@ -71,6 +91,11 @@ footer{
 }
 
 .titreDiv{
+    text-size:24;
+}
+
+.titreDiv:hover{
+    color:;
     text-size:24;
 }
 /*__________________________________________________________________________________________________
@@ -89,3 +114,28 @@ a:hover
     text-decoration: none;
     color : black;
 }
+
+.li:hover{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
