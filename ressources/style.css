@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: 'BadMofo';
+    src: url('font/BadMofo.ttf');
+
+}
+@font-face {
+    font-family: 'ubuntu';
+    src: url('font/Ubuntu-L.ttf');
+
+}
+
+
+
+
+
+
+body{
+
+    background-color: slategray;
+    font-family: ubuntu;
+
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+
+    text-align: center;
+    display: inline-block;
+    border : solid;
+}
+
+
+.content{
+    padding-left: 5%;
+    padding-rigth: 5%;
+}
+
+.top_barre{
+    background-color: dimgrey;
+    popsition:fixed;
+    top:0;
+}
+
+
+/*__________________________________________________________________________________________________
+    div
+*/
+
+.divPart1{
+    display: inline-block;
+    width: 30%;
+    padding:10px;
+
+    border-right: solid;
+}
+
+.divPart2{
+    display: inline-block;
+    width: 30%;
+    padding:10px;
+
+    border-right: solid;
+}
+
+.divPart3{
+    display: inline-block;
+    width: 30%;
+    padding:10px;
+}
+
+.titreDiv{
+    text-size:24;
+}
+/*__________________________________________________________________________________________________
+    hyperliens
+*/
+
+a
+{
+    text-decoration: none;
+    color : white;
+    font-style : italic;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color : black;
+}

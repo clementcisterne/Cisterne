@@ -9,20 +9,98 @@ _________________________________________
 <head>
     <title> CISTERNE Clément </title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="ressources/style.css" />
 </head>
 
 <body>
 
-<nav class="navigation">
-    <a class="dubMachine"  href="DubMachine.html"> Clément CISTERNE </a>
-    <div class='elemnt_menu'>
-        <a href="DubMachine_CV.html">A propos</a>
-        <a href="DubMachine_Son.html">Developpement Web</a>
-        <a href="DubMachine_Son.html">Son</a>
-        <a href="DubMachine_Activitees.html">Activitees</a>
+
+<div class='contener'>
+
+    <div class='top_barre'>
+        <a class="name"  href="index.html"> Clément CISTERNE </a>
+        <div class='elemnt_menu'>
+            <a href="DubMachine_CV.html">A propos</a>
+            <a href="DubMachine_Son.html">Developpement Web</a>
+            <a href="DubMachine_Son.html">Son</a>
+            <a href="DubMachine_Activitees.html">Activitees</a>
+        </div>
     </div>
-</nav>
+
+    </br>
+    <div class='content'>
+
+        <div class="divPart1">
+            <div class="titreDiv">
+                <span class="Icon1"></span> QUI SUIS-JE ?
+            </div>
+            </br>
+            <b>CISTERNE Clément</b>,
+            jeune étudiant en informatique, passionné des sciences et des nouvelles technologies j'ai acquis de solides compétences à travers les différents domaine d'etude de ma formation.
+
+
+
+        </div>
+
+        <div class="divPart2">
+            <div class="titreDiv">
+                <span class="Icon1"></span> FORMATION
+            </div>
+
+            <ul>
+                <li> 2014 - présent : DUT informatique </li>
+                <li> 2013 : Baccalauréat  Scientifique - Informatioque science du numérique - Mention B   </li>
+            </ul>
+
+        </div>
+
+        <div class="divPart3">
+            <div class="titreDiv">
+                <span class="Icon1"></span> COMPETENCES
+            </div>
+
+            <ul>
+                <li> PHP/MySQL - HTML 5 / CSS 3</li>
+                <li> CMS  Joomla </li>
+                <li> JAVA  Projet IUT </li>
+                <li> SQL - PL/SQL  Exercices gestion de tournois d'échec, gestion de camping ... </li>
+                <li> IHM </li>
+            </ul>
+        </div>
+
+        <!-- à voir -->
+        <script type="text/javascript">
+            // Script JQUERY de rotation
+            $.fn.animateRotate = function (angle, preAngle, duration, easing, complete) {
+                var args = $.speed(duration, easing, complete);
+                var step = args.step;
+                return this.each(function (i, e) {
+                    args.complete = $.proxy(args.complete, e);
+                    args.step = function (now) {
+                        now = preAngle + now;
+                        $.style(e, 'transform', 'rotate(' + now + 'deg)');
+                        if (step) return step.apply(e, arguments);
+                    };
+
+                    $({deg: 0}).animate({deg: angle}, args);
+                });
+            };
+        </script>
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+
+
+
 
 </body>
 
