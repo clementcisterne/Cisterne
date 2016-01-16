@@ -22,19 +22,21 @@ body{
 
 }
 
-footer{
-    position:fixed;
-    bottom:0;
+footer {
+    position: fixed;
+    bottom: 0;
+    display: table-row;
 
     text-align: center;
 
-    border : solid;
 }
+
 
 
 .content{
     padding-left: 0%;
     padding-rigth: 0%;
+    padding-top: 30px;
 }
 
 
@@ -48,17 +50,23 @@ footer{
     padding-top: 5px;
     padding-bottom: 5px;
 
-    top:0;
-    right: 0;
+    top:0px;
+    right: 0px;
 }
 
-a.top_barre{
+body.contener.top_barre.a{
+    padding-left: 20px;
 
 }
 
 .name{
     font-family: BadMofo;
-    padding-right: 20%;
+    margin-right: 20%;
+    margin-left: 30px;
+    left:30px;
+
+
+    font-style: inherit;
     font-size:40px;
 }
 
@@ -67,17 +75,18 @@ a.top_barre{
 */
 
 .divPart1{
-    display: inline-block;
+    display: inline-table;
     width: 30%;
+    height: 150px;
     padding:10px;
-    top:0;
 
     border-right: solid;
 }
 
 .divPart2{
-    display: inline-block;
+    display: inline-table;
     width: 30%;
+    height: 150px;
     padding:10px;
 
 
@@ -85,17 +94,19 @@ a.top_barre{
 }
 
 .divPart3{
-    display: inline-block;
+    display: inline-table;
     width: 30%;
+    height: 100px;
     padding:10px;
 }
 
 .titreDiv{
     text-size:24;
+    text-align: center;
 }
 
 .titreDiv:hover{
-    color:;
+    color:whitesmoke;
     text-size:24;
 }
 /*__________________________________________________________________________________________________
@@ -115,7 +126,7 @@ a:hover
     color : black;
 }
 
-.li:hover{
+li:hover{
     color: aliceblue;
 }
 
