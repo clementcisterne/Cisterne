@@ -10,6 +10,8 @@ _________________________________________
     <title> CISTERNE Clément </title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="ressources/style.css" />
+
+    <script type="text/javascript" src="ressources/js/afficher_cacher_div.js"></script>
 </head>
 
 <body>
@@ -20,9 +22,9 @@ _________________________________________
     <a href="index.html">A propos</a>
     <a href="cisterneDeveloppementWeb.html">Développement Web</a>
     <a href="cisterneSon.html">Son</a>
-    <a href="cisterneActivitees.html">Activitees</a>
 
 </div>
+
 <div class='contener'>
 
 
@@ -32,61 +34,54 @@ _________________________________________
 
         <div class="divPart1">
             <div class="titreDiv">
-                <span class="Icon1"></span> <b>QUI SUIS-JE ?</b>
+                <span class="icon1"></span> <b>QUI SUIS-JE ?</b>
             </div>
             </br>
             <b>CISTERNE Clément</b>,
-            jeune étudiant en informatique, passionné des sciences et des nouvelles technologies j'ai acquis de solides compétences à travers les différents domaines d'etude de ma formation.
+            jeune étudiant en informatique orienté web, ma formation me permet d'avoir une vision global des domaines d'applications de l'informatique.
+        </br></br>
+            Je m'intéresse également aux arts de la musique dans différents domaines d'applications : Expérimentation / Composition / Improvisation / MAO 
+
 
         </div>
 
         <div class="divPart2">
             <div class="titreDiv">
-                <span class="Icon1"></span> <b>FORMATION</b>
+                <span class="Icon2"></span> <b>FORMATION</b>
             </div>
 
             <ul>
                 <li> 2014 - présent : DUT informatique </li>
-                <li> 2013 : Baccalauréat  Scientifique </br> <i>Informatique science du numérique - Mention B </i>  </li>
+                <li> 2013 : Baccalauréat  Scientifique </br> <i>Informatique Science du Numérique - Mention B </i>  </li>
             </ul>
 
         </div>
-
         <div class="divPart3">
             <div class="titreDiv">
-                <span class="Icon1"></span> <b>COMPETENCES</b>
+                <span class="Icon3"></span> <b>COMPETENCES</b>
             </div>
 
             <ul>
-                <li> <b> PHP/MySQL - HTML 5 / CSS 3 </b></li>
+                <li> <span class="listElem" onclick="javascript:afficher_cacher('texte');" id="bouton_texte"> 
+
+                    <b>PHP/MySQL - HTML 5/CSS 3 </b> </span>  
+                    <div id="texte" class="texte">
+                        
+                           
+                    </div>
+                     <script type="text/javascript">
+                        //<!--
+                        afficher_cacher('texte');
+                        //-->
+                    </script>
+                </li>
+
                 <li> <b>CMS</b>  Joomla </li>
                 <li> <b>JAVA</b>  Projet IUT </li>
                 <li> <b>SQL - PL/SQL</b>  Exercices gestion de tournois d'échec, gestion de camping ... </li>
                 <li> <b>IHM</b> </li>
             </ul>
         </div>
-
-        <!-- à voir -->
-        <script type="text/javascript">
-            // Script JQUERY de rotation
-            $.fn.animateRotate = function (angle, preAngle, duration, easing, complete) {
-                var args = $.speed(duration, easing, complete);
-                var step = args.step;
-                return this.each(function (i, e) {
-                    args.complete = $.proxy(args.complete, e);
-                    args.step = function (now) {
-                        now = preAngle + now;
-                        $.style(e, 'transform', 'rotate(' + now + 'deg)');
-                        if (step) return step.apply(e, arguments);
-                    };
-
-                    $({deg: 0}).animate({deg: angle}, args);
-                });
-            };
-        </script>
-
-
-
 
 
 

@@ -1,151 +1,643 @@
+@media (min-width: 1290px ){
 
-@font-face {
-    font-family: 'BadMofo';
-    src: url('font/BadMofo.ttf');
+    @font-face {
+        font-family: 'BadMofo';
+        src: url('font/BadMofo.ttf');
 
+    }
+    @font-face {
+        font-family: 'ubuntu';
+        src: url('font/Ubuntu-L.ttf');
+
+    }
+
+
+    /*__________________________________________________________________________________________________
+        structure
+    */
+
+
+
+    body{
+
+        background-color: darkgrey;
+        font-family: ubuntu;
+
+    }
+
+
+
+    .contener{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .content{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 60px;
+        margin: 0%;
+
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 40%;
+        font-style: bold;
+        font-size: 18px;
+
+
+    }
+
+
+
+
+    /*__________________________________________________________________________________________________
+        top_barre
+    */
+
+    .top_barre{
+        background-color: dimgrey;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        position:fixed;
+        top:0px;
+        right: 0px;
+        left: 0px;
+
+
+    }
+
+    a.top_barre {
+        font-size:20px;
+    }
+
+
+    .name{
+        font-family: BadMofo;
+        margin-right: 20%;
+        margin-left: 30px;
+        left:30px;
+
+
+        font-style: inherit;
+        font-size:40px;
+    }
+
+    /*__________________________________________________________________________________________________
+        div
+    */
+
+    div{
+
+    }
+
+    .divPart1{
+        display: inline-table;
+        width: 31%;
+        height: 200px;
+        padding:10px;
+
+        border-right: solid;
+    }
+
+    .divPart2{
+        display: inline-table;
+        width: 31%;
+        height: 200px;
+        padding:10px;
+
+
+        border-right: solid;
+    }
+
+    .divPart3{
+        display: inline-table;
+        width: 31%;
+        height: 200px;
+        padding:10px;
+
+
+    }
+    /* titre div*/
+    .titreDiv{
+        font-size:20;
+        text-align: center;
+    }
+
+    .titreDiv:hover{
+        color:whitesmoke;
+
+    }
+    /*__________________________________________________________________________________________________
+        hyperliens
+    */
+
+    a
+    {
+        text-decoration: none;
+        color : white;
+        font-style : italic;
+    }
+
+    a:hover
+    {
+        text-decoration: none;
+        color : black;
+    }
+    a.top_barre{
+        margin-left: 5%;
+    }
+
+    li:hover{
+        color: aliceblue;
+    }
+
+    /*__________________________________________________________________________________________________
+        icons
+    */
+
+    .icon1{
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+
+
+
+    /*__________________________________________________________________________________________________
+        JS - Details competences
+    */
+
+
+    /* */
+    .listElem{
+        cursor: pointer;
+    }
+
+    .texte
+    {
+
+        border:1px solid #333333;
+        background:#eeeeee;
+        padding:10px;
+        color:#333333;
+
+        position: fixed;
+        top:500px;
+    }
+
+
+    .texte:hover
+    {
+        border:1px solid #000000;
+        background:#cccccc;
+        color:#000000;
+    }
 }
-@font-face {
-    font-family: 'ubuntu';
-    src: url('font/Ubuntu-L.ttf');
 
-}
+/*__________________________________________________________________________________________________
+*//*__________________________________________________________________________________________________
+*/
+/*__________________________________________________________________________________________________
+*//*__________________________________________________________________________________________________
+*/
+/*__________________________________________________________________________________________________
+*//*__________________________________________________________________________________________________
+*/
+/*__________________________________________________________________________________________________
+*//*__________________________________________________________________________________________________
+*/
+
+@media (max-width: 1290px) and (min-width: 784px ) {
+
+    @font-face {
+        font-family: 'BadMofo';
+        src: url('font/BadMofo.ttf');
+
+    }
+    @font-face {
+        font-family: 'ubuntu';
+        src: url('font/Ubuntu-L.ttf');
+
+    }
+
+
+    /*__________________________________________________________________________________________________
+        structure
+    */
+
+    body{
+
+        background-color: darkgrey;
+        font-family: ubuntu;
+
+    }
+
+
+
+    .contener{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .content{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 60px;
+        margin: 0%;
+
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 34%;
+        font-style: bold;
+        font-size: 18px;
+
+
+    }
+
+
+
+
+    /*__________________________________________________________________________________________________
+        top_barre
+    */
+
+    .top_barre{
+        background-color: dimgrey;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        position:fixed;
+        top:0px;
+        right: 0px;
+        left: 0px;
+
+
+    }
+
+    a.top_barre {
+        font-size:20px;
+    }
+
+
+    .name{
+        font-family: BadMofo;
+        margin-right: 20%;
+        margin-left: 30px;
+        left:30px;
+
+
+        font-style: inherit;
+        font-size:40px;
+    }
+
+    /*__________________________________________________________________________________________________
+        div
+    */
+
+    div{
+
+    }
+
+    .divPart1{
+        display: inline-table;
+        width: 44%;
+        height: 200px;
+        padding:10px;
+
+        border-right: solid;
+    }
+
+    .divPart2{
+        display: inline-table;
+
+        height: 200px;
+        padding:10px;
+
+
+    }
+
+    .divPart3{
+        display: block;
+
+        margin-top: 30px;
+
+        height: 200px;
+        padding:10px;
+        padding-right: 15%;
+        padding-left: 15%;
+
+
+    }
+
+    /* titre div*/
+    .titreDiv{
+        font-size:20px;
+        text-align: center;
+    }
+
+    .titreDiv:hover{
+        color:whitesmoke;
+
+    }
+
+    /*__________________________________________________________________________________________________
+        hyperliens
+    */
+
+    a
+    {
+        text-decoration: none;
+        color : white;
+        font-style : italic;
+    }
+
+    a:hover
+    {
+        text-decoration: none;
+        color : black;
+    }
+    a.top_barre{
+        margin-left: 5%;
+    }
+
+    li:hover{
+        color: aliceblue;
+    }
+
+    /*__________________________________________________________________________________________________
+        icons
+    */
+
+    .icon1{
+        width: 40px;
+        height: 40px;
+    }
 
 
 
 
 
 
-body{
-
-    background-color: slategray;
-    font-family: ubuntu;
-
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    display: table-row;
-
-    text-align: center;
-
-}
+    /*__________________________________________________________________________________________________
+        JS - Details competences
+    */
 
 
+    /* */
+    .listElem{
+        cursor: pointer;
+    }
 
-.content{
-    padding-left: 0%;
-    padding-rigth: 0%;
-    padding-top: 30px;
+    .texte
+    {
+        position: fixed;
+        top:500px;
+        border:1px solid #333333;
+        background:#eeeeee;
+        padding:10px;
+        color:#333333;
+    }
+
+
+    .texte:hover
+    {
+        border:1px solid #000000;
+        background:#cccccc;
+        color:#000000;
+    }
+
+
+
 }
 
 
 /*__________________________________________________________________________________________________
-    top_barre
+*//*__________________________________________________________________________________________________
 */
-
-.top_barre{
-    background-color: dimgrey;
-    popsition:fixed;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    top:0px;
-    right: 0px;
-}
-
-body.contener.top_barre.a{
-    padding-left: 20px;
-
-}
-
-.name{
-    font-family: BadMofo;
-    margin-right: 20%;
-    margin-left: 30px;
-    left:30px;
-
-
-    font-style: inherit;
-    font-size:40px;
-}
-
 /*__________________________________________________________________________________________________
-    div
+*//*__________________________________________________________________________________________________
 */
-
-.divPart1{
-    display: inline-table;
-    width: 30%;
-    height: 150px;
-    padding:10px;
-
-    border-right: solid;
-}
-
-.divPart2{
-    display: inline-table;
-    width: 30%;
-    height: 150px;
-    padding:10px;
-
-
-    border-right: solid;
-}
-
-.divPart3{
-    display: inline-table;
-    width: 30%;
-    height: 100px;
-    padding:10px;
-}
-
-.titreDiv{
-    text-size:24;
-    text-align: center;
-}
-
-.titreDiv:hover{
-    color:whitesmoke;
-    text-size:24;
-}
 /*__________________________________________________________________________________________________
-    hyperliens
+*//*__________________________________________________________________________________________________
+*/
+/*__________________________________________________________________________________________________
+*//*__________________________________________________________________________________________________
 */
 
-a
-{
-    text-decoration: none;
-    color : white;
-    font-style : italic;
+
+@media (max-width: 784px ) {
+
+    @font-face {
+        font-family: 'BadMofo';
+        src: url('font/BadMofo.ttf');
+
+    }
+    @font-face {
+        font-family: 'ubuntu';
+        src: url('font/Ubuntu-L.ttf');
+
+    }
+
+
+    /*__________________________________________________________________________________________________
+        structure
+    */
+
+    body{
+
+        background-color: darkgrey;
+        font-family: ubuntu;
+
+    }
+
+
+
+    .contener{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .content{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 60px;
+        margin: 0%;
+
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 10%;
+        font-style: bold;
+        font-size: 18px;
+
+
+    }
+
+
+
+
+    /*__________________________________________________________________________________________________
+        top_barre
+    */
+
+    .top_barre{
+        background-color: dimgrey;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        position:fixed;
+        top:0px;
+        right: 0px;
+        left: 0px;
+
+
+    }
+
+    a.top_barre {
+        font-size:20px;
+    }
+
+
+    .name{
+        font-family: BadMofo;
+        margin-right: 20%;
+        margin-left: 30px;
+        left:30px;
+
+
+        font-style: inherit;
+        font-size:40px;
+    }
+
+    /*__________________________________________________________________________________________________
+        div
+    */
+
+    div{
+
+    }
+
+    .divPart1{
+        display: inline-table;
+        width:95%;
+        height: 200px;
+        padding:10px;
+
+
+    }
+
+    .divPart2{
+        display: inline-table;
+        width:95%;
+        height: 200px;
+        padding:10px;
+
+
+    }
+
+    .divPart3{
+       display: inline-table;
+        width:95%;
+
+
+        height: 200px;
+        padding:10px;
+
+
+
+    }
+
+    /* titre div*/
+    .titreDiv{
+        font-size:20;
+        text-align: center;
+    }
+
+    .titreDiv:hover{
+        color:whitesmoke;
+
+    }
+
+    /*__________________________________________________________________________________________________
+        hyperliens
+    */
+
+    a
+    {
+        text-decoration: none;
+        color : white;
+        font-style : italic;
+    }
+
+    a:hover
+    {
+        text-decoration: none;
+        color : black;
+    }
+    a.top_barre{
+        margin-left: 5%;
+    }
+
+    li:hover{
+        color: aliceblue;
+    }
+
+    /*__________________________________________________________________________________________________
+        icons
+    */
+
+    .icon1{
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+
+
+
+    /*__________________________________________________________________________________________________
+        JS - Details competences
+    */
+
+
+    /* */
+    .listElem{
+        cursor: pointer;
+    }
+
+    .texte
+    {
+        position: fixed;
+        top:500px;
+        border:1px solid #333333;
+        background:#eeeeee;
+        padding:10px;
+        color:#333333;
+    }
+
+
+    .texte:hover
+    {
+        border:1px solid #000000;
+        background:#cccccc;
+        color:#000000;
+    }
+
+
+
 }
-
-a:hover
-{
-    text-decoration: none;
-    color : black;
-}
-
-li:hover{
-    color: aliceblue;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
