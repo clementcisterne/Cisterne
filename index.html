@@ -11,10 +11,13 @@ _________________________________________
     <meta charset="utf-8" />
     <link rel="stylesheet" href="ressources/style.css" />
 
-    <script type="text/javascript" src="ressources/js/afficher_cacher_div.js"></script>
+<!-- Include gestion details conpetence -->
+    <script type="text/javascript" src="ressources/js/closeAll_div.js"></script>
+    <script type="text/javascript" src="ressources/js/open_div.js"></script>
+    <script type="text/javascript" src="ressources/js/close_div.js"></script>
 </head>
 
-<body>
+<body onload="close_5div('detailProgWeb','detailCMS','detailJava','detailSQL','detailIHM')" >
 
 <div class='top_barre'>
     <a class="name"  href="index.html"><strog> Clement CISTERNE </strog>></a>
@@ -38,13 +41,14 @@ _________________________________________
             </div>
             </br>
             <b>CISTERNE Clément</b>,
-            jeune étudiant en informatique orienté web, ma formation me permet d'avoir une vision global des domaines d'applications de l'informatique.
+            jeune étudiant en informatique orienté web. 
+        </br></br>    
+            Ma formation me permet d'avoir une vision global des domaines d'applications de l'informatique.
         </br></br>
             Je m'intéresse également aux arts de la musique dans différents domaines d'applications : Expérimentation / Composition / Improvisation / MAO 
 
 
         </div>
-
         <div class="divPart2">
             <div class="titreDiv">
                 <span class="Icon2"></span> <b>FORMATION</b>
@@ -62,24 +66,82 @@ _________________________________________
             </div>
 
             <ul>
-                <li> <span class="listElem" onclick="javascript:afficher_cacher('texte');" id="bouton_texte"> 
+                <li>
+                    <span class="listElem" onmouseover="visible('detailProgWeb')" onmouseleave="hide('detailProgWeb')" > <b>PHP/MySQL - HTML 5/CSS 3 </b> </span>
+<!-- detail -->
+                        <div id="detailProgWeb" class="texte">
+                           <ul>
+                                <li> Musée Virtuel </li>
+                                    <ul>
+                                        <li></li>
+                                    </ul>
+                                <li> BIKERIDER </li>
+                           </ul>
 
-                    <b>PHP/MySQL - HTML 5/CSS 3 </b> </span>  
-                    <div id="texte" class="texte">
-                        
-                           
+                        </div>
+<!-- detail -->
+
+                 </li>
+
+                <li>
+                    <span class="listElem" onmouseover="visible('detailCMS')" onmouseleave="hide('detailCMS')" > <b>CMS</b>  Joomla </span>
+<!-- detail -->
+
+                    <div id="detailCMS" class="texte">
+                       <ul>
+                            <li> SamInstruit - Projet DUT S2 2015 - 6 membres </li></br>
+                                
+                                </br>
+                                Un site de covoiturage pour les retours de soirée destiné aux étudiants, couplé à un outil de partage de cours participatif !
+                                </br>
+
+                       </ul>
+
+<!-- detail -->                           
                     </div>
-                     <script type="text/javascript">
-                        //<!--
-                        afficher_cacher('texte');
-                        //-->
-                    </script>
+
+
                 </li>
 
-                <li> <b>CMS</b>  Joomla </li>
-                <li> <b>JAVA</b>  Projet IUT </li>
-                <li> <b>SQL - PL/SQL</b>  Exercices gestion de tournois d'échec, gestion de camping ... </li>
-                <li> <b>IHM</b> </li>
+                <li> <span class="listElem" onmouseover="visible('detailJava')" onmouseleave="hide('detailJava')" > <b>JAVA</b>  Projet IUT
+<!-- detail -->
+                <div id="detailJava" class="texte">
+                    <ul>
+                        <li> Musée Virtuel </li>
+                        <ul>
+                            <li></li>
+                        </ul>
+                        <li> BIKERIDER </li>
+                    </ul>
+
+                </div>
+<!-- detail -->
+                <li> <span class="listElem" onmouseover="visible('detailSQL')" onmouseleave="hide('detailSQL')" > <b>SQL - PL/SQL</b>  Exercices gestion de tournois d'échec, gestion de camping ...
+<!-- detail -->
+                <div id="detailSQL" class="texte">
+                    <ul>
+                        <li> Musée Virtuel </li>
+                        <ul>
+                            <li></li>
+                        </ul>
+                        <li> BIKERIDER </li>
+                    </ul>
+
+                </div>
+<!-- detail -->
+                <li> <span class="listElem" onmouseover="visible('detailIHM')" onmouseleave="hide('detailIHM')" >  <b>IHM</b>
+<!-- detail -->
+                <div id="detailIHM" class="texte">
+                    <ul>
+                        <li> Musée Virtuel </li>
+                        <ul>
+                            <li></li>
+                        </ul>
+                        <li> BIKERIDER </li>
+                    </ul>
+
+                </div>
+<!-- detail -->
             </ul>
         </div>
 

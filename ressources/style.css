@@ -180,29 +180,27 @@
     }
 
     .texte
-    {
+    {   
+        display: inline-block;
 
-        border:1px solid #333333;
-        background:#eeeeee;
-        padding:10px;
-        color:#333333;
+        background-color: dimgrey;
+        padding:30px;
 
-        position: fixed;
-        top:500px;
+        color:whitesmoke; 
+
+        position: absolute;
+        top:370px;
+        right: 15%;
+        left:15%;
+
+
+
     }
 
 
-    .texte:hover
-    {
-        border:1px solid #000000;
-        background:#cccccc;
-        color:#000000;
-    }
 }
 
-/*__________________________________________________________________________________________________
-*//*__________________________________________________________________________________________________
-*/
+
 /*__________________________________________________________________________________________________
 *//*__________________________________________________________________________________________________
 */
@@ -398,31 +396,25 @@
     }
 
     .texte
-    {
-        position: fixed;
-        top:500px;
-        border:1px solid #333333;
-        background:#eeeeee;
-        padding:10px;
-        color:#333333;
-    }
+        {   
+            display: inline-block;
+
+            background-color: dimgrey;
+            padding:30px;
+
+            font-color:whitesmoke; 
+
+            position: absolute;
+            top:570px;
+            right: 15%;
+            left:15%;
 
 
-    .texte:hover
-    {
-        border:1px solid #000000;
-        background:#cccccc;
-        color:#000000;
-    }
 
-
+        }
 
 }
 
-
-/*__________________________________________________________________________________________________
-*//*__________________________________________________________________________________________________
-*/
 /*__________________________________________________________________________________________________
 *//*__________________________________________________________________________________________________
 */
@@ -618,24 +610,22 @@
     }
 
     .texte
-    {
-        position: fixed;
-        top:500px;
-        border:1px solid #333333;
-        background:#eeeeee;
-        padding:10px;
-        color:#333333;
-    }
+        {   
+            display: inline-block;
+
+            background-color: dimgrey;
+            padding:30px;
+
+            font-color:whitesmoke; 
+
+            position: absolute;
+            top:740px;
+            right: 15%;
+            left:15%;
 
 
-    .texte:hover
-    {
-        border:1px solid #000000;
-        background:#cccccc;
-        color:#000000;
-    }
 
-
+        }
 
 }
 
