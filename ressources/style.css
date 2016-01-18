@@ -100,7 +100,8 @@
         height: 200px;
         padding:10px;
 
-        border-right: solid;
+        border-right: dotted ;
+
     }
 
     .divPart2{
@@ -110,7 +111,7 @@
         padding:10px;
 
 
-        border-right: solid;
+        border-right: dotted;
     }
 
     .divPart3{
@@ -311,7 +312,7 @@
         height: 200px;
         padding:10px;
 
-        border-right: solid;
+        border-right: dotted ;
     }
 
     .divPart2{
